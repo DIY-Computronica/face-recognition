@@ -41,6 +41,7 @@ while True:
     
     # Mostre a imagem com os pontos de interesse.
     cv2.imshow("Output", image)
+    # Tecla ESC
     k = cv2.waitKey(5) & 0xFF
     if k == 27:
         break
